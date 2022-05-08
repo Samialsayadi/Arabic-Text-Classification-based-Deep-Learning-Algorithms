@@ -1,1 +1,1 @@
-# Text Classification based-Deep Learning Algorithms
+# Text Classification based Deep Learning Algorithms
