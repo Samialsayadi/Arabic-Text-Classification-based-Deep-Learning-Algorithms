@@ -135,7 +135,7 @@ weighted avg     0.8109    0.8100    0.8082       300
 # Recurrent neural networks
 # Deep neural networks
 ```
-      precision    recall  f1-score   support
+         precision    recall  f1-score   support
 
              Art      1.00      0.95      0.98        62
         Economic      0.98      0.98      0.98        58
