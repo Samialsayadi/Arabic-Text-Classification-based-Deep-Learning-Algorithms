@@ -170,6 +170,9 @@ weighted avg       0.95      0.94      0.94       300
 weighted avg       0.81      0.80      0.80       300
 ```
 # Deep neural networks
+Deep Neural Networks (DNN), we used input layer  tf-ifd, while the output layer houses neurons equal to the number of classes for multi-class classification and only one neuron for binary classification. we have multi-class DNNs where each learning model is generated randomly (number of nodes in each layer as well as the number of layers are randomly assigned). Our implementation of Deep Neural Network (DNN) is basically a discriminatively trained model that uses standard back-propagation algorithm and sigmoid or ReLU as activation functions. The output layer for multi-class classification should use Softmax.
+
+
 ```
          precision    recall  f1-score   support
 
