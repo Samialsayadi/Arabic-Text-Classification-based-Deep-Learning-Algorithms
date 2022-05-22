@@ -10,6 +10,7 @@ Aljazeera news 5 classes dataset (Alj-News5). Alj-News5 is another different dat
 Text classification is a smart classification of text into categories. And, using machine learning to automate these tasks, just makes the whole process super-fast and efficient. Artificial Intelligence and Machine learning are arguably the most beneficial technologies to have gained momentum in recent times. in this study, we used 8 algorithms with competitive results. 
 
 # 1. Naive Bayes Classifier
+Naïve Bayes text classification has been used in industry and academia for a long time (introduced by Thomas Bayes between 1701-1761).  Naive Bayes Classifier (NBC) is generative model which is widely used in Information Retrieval.  We start with the most basic version of NBC which developed by using term-frequency (Bag of Word) fetaure extraction technique by counting number of words in documents
 
 ```
      precision    recall  f1-score   support
