@@ -134,4 +134,17 @@ weighted avg     0.8109    0.8100    0.8082       300
 # convolutional neural network 
 # Recurrent neural networks
 # Deep neural networks
+```
+      precision    recall  f1-score   support
+
+             Art      1.00      0.95      0.98        62
+        Economic      0.98      0.98      0.98        58
+        Politics      0.94      0.97      0.95        65
+         Science      0.96      0.98      0.97        56
+           Sport      1.00      1.00      1.00        59
+
+        accuracy                           0.98       300
+       macro avg       0.98      0.98      0.98       300
+    weighted avg       0.98      0.98      0.98       300
+```
 # Recurrent convolutional neural network 
