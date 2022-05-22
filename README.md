@@ -207,3 +207,16 @@ weighted avg     0.8736    0.8500    0.8519       300
 # 5. Long Short-Term Memory (LSTM) 
 
 Long Short-Term Memory (LSTM) is a special type of RNN that preserves long term dependency in a more effective way compared to the basic RNNs. This is particularly useful to overcome vanishing gradient problem. Although LSTM has a chain-like structure similar to RNN, LSTM uses multiple gates to carefully regulate the amount of information that will be allowed into each node state. Figure shows the basic cell of a LSTM model.
+```
+       precision    recall  f1-score   support
+
+           0       0.82      0.64      0.72        56
+           1       0.80      0.80      0.80        65
+           2       0.57      0.63      0.60        49
+           3       0.89      0.97      0.93        66
+           4       0.94      0.95      0.95        64
+
+    accuracy                           0.81       300
+   macro avg       0.80      0.80      0.80       300
+weighted avg       0.82      0.81      0.81       300
+```
