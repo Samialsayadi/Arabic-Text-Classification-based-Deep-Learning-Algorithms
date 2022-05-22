@@ -132,7 +132,33 @@ weighted avg     0.8109    0.8100    0.8082       300
 ```
 # Step 2: Text Classification based on Deap Learning 
 # convolutional neural network 
+```
+        precision    recall  f1-score   support
+
+           0       1.00      0.92      0.96        62
+           1       0.93      0.89      0.91        61
+           2       0.81      0.93      0.87        60
+           3       1.00      0.98      0.99        59
+           4       1.00      1.00      1.00        58
+
+    accuracy                           0.94       300
+   macro avg       0.95      0.94      0.95       300
+weighted avg       0.95      0.94      0.94       300
+```
 # Recurrent neural networks
+```
+           precision    recall  f1-score   support
+
+           0       0.93      0.81      0.86        67
+           1       0.68      0.81      0.74        57
+           2       0.70      0.90      0.79        58
+           3       0.72      0.52      0.60        60
+           4       1.00      0.98      0.99        58
+
+    accuracy                           0.80       300
+   macro avg       0.81      0.80      0.80       300
+weighted avg       0.81      0.80      0.80       300
+```
 # Deep neural networks
 ```
          precision    recall  f1-score   support
