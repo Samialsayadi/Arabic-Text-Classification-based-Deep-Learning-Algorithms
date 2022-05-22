@@ -188,15 +188,16 @@ Deep Neural Networks (DNN), we used input layer  tf-ifd, while the output layer 
 ```
 # Recurrent convolutional neural network 
 ```
-           precision    recall  f1-score   support
+      precision    recall  f1-score   support
 
-           0       0.93      0.81      0.86        67
-           1       0.68      0.81      0.74        57
-           2       0.70      0.90      0.79        58
-           3       0.72      0.52      0.60        60
-           4       1.00      0.98      0.99        58
+         Art     0.6522    0.8571    0.7407        70
+    Economic     0.9500    0.8636    0.9048        66
+    Politics     0.9545    0.6562    0.7778        64
+     Science     0.8710    0.9474    0.9076        57
+       Sport     1.0000    0.9767    0.9882        43
 
-    accuracy                           0.80       300
-   macro avg       0.81      0.80      0.80       300
-weighted avg       0.81      0.80      0.80       300
+    accuracy                         0.8500       300
+   macro avg     0.8855    0.8602    0.8638       300
+weighted avg     0.8736    0.8500    0.8519       300
+
 ```
