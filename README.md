@@ -73,6 +73,7 @@ weighted avg     0.9337    0.9333    0.9330       300
 weighted avg     0.9236    0.9200    0.9188       300
 ```
 # 5. K-nearest Neighbor
+The k-nearest neighbors algorithm (kNN) is a non-parametric technique used for classification. This method is used in Natural-language processing (NLP) as a text classification technique in many researches in the past decades.
 ```
        precision    recall  f1-score   support
 
@@ -87,6 +88,7 @@ weighted avg     0.9236    0.9200    0.9188       300
 weighted avg     0.9181    0.9167    0.9159       300
 ```
 # 6. Support Vector Machine (SVM)
+Support vector machines is an algorithm that determines the best decision boundary between vectors that belong to a given group (or category) and vectors that do not belong to it. we applied SVM based TF-IDF vectors and obtain the high result compare with other machine learning algorithms.
 ```
               precision    recall  f1-score   support
 
