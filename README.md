@@ -8,6 +8,23 @@ Aljazeera news 5 classes dataset (Alj-News5). Alj-News5 is another different dat
 # Step 1: Text Classification based on Machine Learning 
 # Naive Bayes Classifier
 # Rocchio classification
+The first version of Rocchio algorithm is introduced by rocchio in 1971 to use relevance feedback in querying full-text databases. 
+Rocchio's algorithm builds a prototype vector for each class which is an average vector over all training document vectors that belongs to a certain class. Then, it will assign each test document to a class with maximum similarity that between test document and each of the prototype vectors.
+When in nearest centroid classifier, we used for text as input data for classification with tf-idf vectors, this classifier is known as the Rocchio classifier.
+```
+ precision    recall  f1-score   support
+
+         Art     0.8704    0.9216    0.8952        51
+    Economic     0.6724    1.0000    0.8041        39
+    Politics     1.0000    0.6897    0.8163        87
+     Science     1.0000    1.0000    1.0000        58
+       Sport     0.9286    1.0000    0.9630        65
+
+    accuracy                         0.8967       300
+   macro avg     0.8943    0.9222    0.8957       300
+weighted avg     0.9199    0.8967    0.8954       300
+```
+
 # Boosting and Bagging
 # Boosting is a Ensemble learning meta-algorithm
 # K-nearest Neighbor
