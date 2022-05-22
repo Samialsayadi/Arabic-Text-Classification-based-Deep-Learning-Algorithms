@@ -6,8 +6,11 @@ In arabic text classification, texts have to be transformed into numeric represe
 Aljazeera news 5 classes dataset (Alj-News5). Alj-News5 is another different dataset that contains 1500 documents for news articles. Each document is labeled with one of the following five classes {‘Art’, ‘Economic’, ‘Politics’, ‘Science’, and ‘Sport’}. Alj-News5 was used by other researchers . A comparison of classification results of the current approach against other research works on Alj-News5 will be pre- sented in the experiments.
 
 # Step 1: Text Classification based on Machine Learning 
-# Naive Bayes Classifier
-# Rocchio classification
+
+Text classification is a smart classification of text into categories. And, using machine learning to automate these tasks, just makes the whole process super-fast and efficient. Artificial Intelligence and Machine learning are arguably the most beneficial technologies to have gained momentum in recent times. in this study, we used 8 algorithms with competitive results. 
+
+# 1. Naive Bayes Classifier
+# 2. Rocchio classification
 The first version of Rocchio algorithm is introduced by rocchio in 1971 to use relevance feedback in querying full-text databases. 
 Rocchio's algorithm builds a prototype vector for each class which is an average vector over all training document vectors that belongs to a certain class. Then, it will assign each test document to a class with maximum similarity that between test document and each of the prototype vectors.
 When in nearest centroid classifier, we used for text as input data for classification with tf-idf vectors, this classifier is known as the Rocchio classifier.
@@ -25,12 +28,12 @@ When in nearest centroid classifier, we used for text as input data for classifi
 weighted avg     0.9199    0.8967    0.8954       300
 ```
 
-# Boosting and Bagging
-# Boosting is a Ensemble learning meta-algorithm
-# K-nearest Neighbor
-# Support Vector Machine (SVM)
-# Decision Tree
-# Conditional Random Field (CRF)
+# 3. Boosting and Bagging
+# 4. Boosting is a Ensemble learning meta-algorithm
+# 5. K-nearest Neighbor
+# 6. Support Vector Machine (SVM)
+# 7. Decision Tree
+# 8. Conditional Random Field (CRF)
 
 
 # Step 2: Text Classification based on Deap Learning 
