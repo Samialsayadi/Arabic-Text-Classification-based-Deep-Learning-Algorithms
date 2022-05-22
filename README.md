@@ -142,6 +142,7 @@ Deep Neural Networks architectures are designed to learn through multiple connec
 In this Comparative study, we used the commen Deep learning methods (CNN, RNN, DNN, RCNN)to classify arabic text. and we have trained algorithms by only 15 Epoch. The result showed DNN algorithm was the high result compare other algorithms' results.  
 
 # convolutional neural network 
+Convolutional Neural Networks (CNN) architecture similar to the visual cortex, CNNs have also been effectively used for text classification. In a basic CNN for image processing, an image tensor is convolved with a set of kernels of size d by d. These convolution layers are called feature maps and can be stacked to provide multiple filters on the input. To reduce the computational complexity, CNNs use pooling which reduces the size of the output from one layer to the next in the network. Different pooling techniques are used to reduce outputs while preserving important features.
 ```
         precision    recall  f1-score   support
 
@@ -156,6 +157,7 @@ In this Comparative study, we used the commen Deep learning methods (CNN, RNN, D
 weighted avg       0.95      0.94      0.94       300
 ```
 # Recurrent neural networks
+RNN assigns more weights to the previous data points of sequence. Therefore, this technique is a powerful method for text, string and sequential data classification. Moreover, this technique could be used for image classification as we did in this work. In RNN, the neural net considers the information of previous nodes in a very sophisticated method which allows for better semantic analysis of the structures in the dataset.
 ```
            precision    recall  f1-score   support
 
@@ -187,6 +189,7 @@ Deep Neural Networks (DNN), we used input layer  tf-ifd, while the output layer 
     weighted avg       0.98      0.98      0.98       300
 ```
 # Recurrent convolutional neural network 
+Recurrent Convolutional Neural Networks (RCNN) is also used for text classification. The main idea of this technique is capturing contextual information with the recurrent structure and constructing the representation of text using a convolutional neural network. This architecture is a combination of RNN and CNN to use advantages of both technique in a model.
 ```
       precision    recall  f1-score   support
 
