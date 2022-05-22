@@ -43,7 +43,10 @@ When in nearest centroid classifier, we used for text as input data for classifi
 weighted avg     0.9199    0.8967    0.8954       300
 ```
 
-# 3. Boosting and Bagging
+# 3.Boosting and Bagging
+Boosting
+Boosting is a Ensemble learning meta-algorithm for primarily reducing variance in supervised learning. It is basically a family of machine learning algorithms that convert weak learners to strong ones. Boosting is based on the question posed by Michael Kearns and Leslie Valiant (1988, 1989) Can a set of weak learners create a single strong learner? A weak learner is defined to be a Classification that is only slightly correlated with the true classification (it can label examples better than random guessing). In contrast, a strong learner is a classifier that is arbitrarily well-correlated with the true classification.
+
 ```
      precision    recall  f1-score   support
 
@@ -58,7 +61,8 @@ weighted avg     0.9199    0.8967    0.8954       300
 weighted avg     0.9337    0.9333    0.9330       300
 ```
 
-# 4. Boosting is a Ensemble learning meta-algorithm
+# 4. Bagging
+
 ```
               precision    recall  f1-score   support
 
