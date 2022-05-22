@@ -138,6 +138,9 @@ Conditional random fields (CRFs) are a class of statistical modeling methods oft
 weighted avg     0.8109    0.8100    0.8082       300
 ```
 # Step 2: Text Classification based on Deap Learning 
+Deep Neural Networks architectures are designed to learn through multiple connection of layers where each single layer only receives connection from previous and provides connections only to the next layer in hidden part. The input is a connection of feature space (As discussed in Section Feature_extraction with first hidden layer. 
+In this Comparative study, we used the commen Deep learning methods (CNN, RNN, DNN, RCNN)to classify arabic text. and we have trained algorithms by only 15 Epoch. The result showed DNN algorithms was the high result compare other algorithms' results.  
+
 # convolutional neural network 
 ```
         precision    recall  f1-score   support
