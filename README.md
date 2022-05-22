@@ -141,7 +141,7 @@ weighted avg     0.8109    0.8100    0.8082       300
 Deep Neural Networks architectures are designed to learn through multiple connection of layers where each single layer only receives connection from previous and provides connections only to the next layer in hidden part. The input is a connection of feature space (As discussed in Section Feature_extraction with first hidden layer. 
 In this Comparative study, we used the commen Deep learning methods (CNN, RNN, DNN, RCNN)to classify arabic text. and we have trained algorithms by only 15 Epoch. The result showed DNN algorithm was the high result compare other algorithms' results.  
 
-# convolutional neural network 
+# 1. convolutional neural network 
 Convolutional Neural Networks (CNN) architecture similar to the visual cortex, CNNs have also been effectively used for text classification. In a basic CNN for image processing, an image tensor is convolved with a set of kernels of size d by d. These convolution layers are called feature maps and can be stacked to provide multiple filters on the input. To reduce the computational complexity, CNNs use pooling which reduces the size of the output from one layer to the next in the network. Different pooling techniques are used to reduce outputs while preserving important features.
 ```
         precision    recall  f1-score   support
@@ -156,7 +156,7 @@ Convolutional Neural Networks (CNN) architecture similar to the visual cortex, C
    macro avg       0.95      0.94      0.95       300
 weighted avg       0.95      0.94      0.94       300
 ```
-# Recurrent neural networks
+# 2. Recurrent neural networks
 RNN assigns more weights to the previous data points of sequence. Therefore, this technique is a powerful method for text, string and sequential data classification. Moreover, this technique could be used for image classification as we did in this work. In RNN, the neural net considers the information of previous nodes in a very sophisticated method which allows for better semantic analysis of the structures in the dataset.
 ```
            precision    recall  f1-score   support
@@ -171,7 +171,7 @@ RNN assigns more weights to the previous data points of sequence. Therefore, thi
    macro avg       0.81      0.80      0.80       300
 weighted avg       0.81      0.80      0.80       300
 ```
-# Deep neural networks
+# 3. Deep neural networks
 Deep Neural Networks (DNN), we used input layer  tf-ifd, while the output layer houses neurons equal to the number of classes for multi-class classification and only one neuron for binary classification. we have multi-class DNNs where each learning model is generated randomly (number of nodes in each layer as well as the number of layers are randomly assigned). Our implementation of Deep Neural Network (DNN) is basically a discriminatively trained model that uses standard back-propagation algorithm and sigmoid or ReLU as activation functions. The output layer for multi-class classification should use Softmax.
 
 
@@ -188,7 +188,7 @@ Deep Neural Networks (DNN), we used input layer  tf-ifd, while the output layer 
        macro avg       0.98      0.98      0.98       300
     weighted avg       0.98      0.98      0.98       300
 ```
-# Recurrent convolutional neural network 
+# 4. Recurrent convolutional neural network 
 Recurrent Convolutional Neural Networks (RCNN) is also used for text classification. The main idea of this technique is capturing contextual information with the recurrent structure and constructing the representation of text using a convolutional neural network. This architecture is a combination of RNN and CNN to use advantages of both technique in a model.
 ```
       precision    recall  f1-score   support
@@ -204,6 +204,6 @@ Recurrent Convolutional Neural Networks (RCNN) is also used for text classificat
 weighted avg     0.8736    0.8500    0.8519       300
 
 ```
-# Long Short-Term Memory (LSTM) 
+# 5. Long Short-Term Memory (LSTM) 
 
 Long Short-Term Memory (LSTM) is a special type of RNN that preserves long term dependency in a more effective way compared to the basic RNNs. This is particularly useful to overcome vanishing gradient problem. Although LSTM has a chain-like structure similar to RNN, LSTM uses multiple gates to carefully regulate the amount of information that will be allowed into each node state. Figure shows the basic cell of a LSTM model.
