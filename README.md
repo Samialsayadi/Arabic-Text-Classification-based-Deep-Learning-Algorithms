@@ -103,6 +103,8 @@ Support vector machines is an algorithm that determines the best decision bounda
 weighted avg     0.9801    0.9800    0.9799       300
 ```
 # 7. Decision Tree
+One of earlier classification algorithm for text and data mining is decision tree. Decision tree classifiers (DTC's) are used successfully in many diverse areas of classification. The structure of this technique includes a hierarchical decomposition of the data space (only train dataset). Decision tree as classification task was introduced by D. Morgan and developed by JR. Quinlan. The main idea is creating trees based on the attributes of the data points, but the challenge is determining which attribute should be in parent level and which one should be in child level. To solve this problem, De Mantaras introduced statistical modeling for feature selection in tree.
+
 ```
       precision    recall  f1-score   support
 
@@ -117,6 +119,7 @@ weighted avg     0.9801    0.9800    0.9799       300
 weighted avg     0.7971    0.7933    0.7917       300
 ```
 # 8. Conditional Random Field (CRF)
+Conditional random fields (CRFs) are a class of statistical modeling methods often applied in pattern recognition and machine learning and used for structured prediction. Whereas a classifier predicts a label for a single sample without considering "neighbouring" samples, a CRF can take context into account. To do so, the predictions are modelled as a graphical model, which represents the presence of dependencies between the predictions. What kind of graph is used depends on the application. For example, in natural language processing, "linear chain" CRFs are popular, for which each prediction is dependent only on its immediate neighbours. 
 ```
     precision    recall  f1-score   support
 
