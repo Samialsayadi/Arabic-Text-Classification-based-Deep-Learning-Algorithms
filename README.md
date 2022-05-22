@@ -204,3 +204,6 @@ Recurrent Convolutional Neural Networks (RCNN) is also used for text classificat
 weighted avg     0.8736    0.8500    0.8519       300
 
 ```
+# Long Short-Term Memory (LSTM) 
+
+Long Short-Term Memory (LSTM) is a special type of RNN that preserves long term dependency in a more effective way compared to the basic RNNs. This is particularly useful to overcome vanishing gradient problem. Although LSTM has a chain-like structure similar to RNN, LSTM uses multiple gates to carefully regulate the amount of information that will be allowed into each node state. Figure shows the basic cell of a LSTM model.
