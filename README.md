@@ -220,3 +220,11 @@ Long Short-Term Memory (LSTM) is a special type of RNN that preserves long term 
    macro avg       0.80      0.80      0.80       300
 weighted avg       0.82      0.81      0.81       300
 ```
+# Dependencies
+
+* [NLTK:](https://anaconda.org/anaconda/nltk) `conda install nltk` 
+* [Pandas:](https://pypi.org/project/pandas/) `pip install pandas `.
+* [Numpy:](https://anaconda.org/anaconda/numpy) `conda install -c anaconda numpy `.
+* [Scikit-cmeans:](https://pypi.org/project/scikit-cmeans) `pip install scikit-cmeans`.
+* [Keras:](https://pypi.org/project/keras/) `pip install keras`.
+* [Tensorflow:](https://www.tensorflow.org/install) `pip install tensorflow`.
