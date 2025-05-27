@@ -1,11 +1,11 @@
-from keras.layers import Dropout, Dense, GRU, Embedding
-from keras.models import Sequential
-from sklearn.feature_extraction.text import TfidfVectorizer
-import numpy as np
-from sklearn import metrics
-from keras.preprocessing.text import Tokenizer
-from keras.preprocessing.sequence import pad_sequences
-from sklearn.datasets import fetch_20newsgroups
 import pandas as pd
 from sklearn.model_selection import train_test_split
-from sklearn import model_selection, naive_bayes, svm
+
+# Load your prepared data
+# Assuming you have a DataFrame with 'text' and 'label' columns
+data = pd.read_csv('aji-Arabic_corpus.csv')
+
+# Split data
+X_train, X_test, y_train, y_test = train_test_split(
+    data['text'], data['label'], test_size=0.2, random_state=42
+)
